@@ -216,9 +216,7 @@ header p{
     padding-top: 100px;
 }
 
-.secao-carrossel img{
-    width: 10%;
-}
+
 
 .clipboard{
     margin-top: 10%;
@@ -338,7 +336,7 @@ footer{
 
     .secao-primaria img{
         margin-bottom: 7%;
-        width: 380px;
+        width: 300px;
     }
 
     .secao-secundaria{

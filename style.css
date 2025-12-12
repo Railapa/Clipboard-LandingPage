@@ -9,6 +9,7 @@
 body{
     background-color: #F2F2F2;
     height: 100vh;
+    
     font-family: "Bai Jamjuree", sans-serif;
     background-image: url(/images/bg-header-desktop.png);
     background-repeat: no-repeat;
@@ -76,6 +77,8 @@ header p{
 
 .header-secundario p{
     line-height: 25px;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .secao-primaria{
@@ -209,7 +212,12 @@ header p{
     align-items: center;
     justify-content: center;
     gap: 100px;
-    margin-top: 10%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.secao-carrossel img{
+    width: 10%;
 }
 
 .clipboard{
@@ -312,7 +320,7 @@ footer{
     gap: 30px;   
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1000px){
     .header-botao{
         flex-direction: column;
     }
@@ -399,5 +407,112 @@ footer{
    .redes{
         align-items: center;
         margin: 0;
+   }
+
+   .header-secundario p{
+        width: 80%;
+        margin: 0 auto;
+   }
+
+   .secao-secundaria-header{
+        width: 80%;
+        margin: 0 auto;
+   }
+
+   .secao-secundaria-header h2{
+        font-size: 20px;
+   }
+
+   .secao-secundaria-header p{
+        width: 75%;
+        margin: 0 auto;
+   }
+
+   .secao-secundaria-img{
+        padding-top: 50px;
+   }
+
+   .create{
+        width: 60%;
+   }
+
+   .plain{
+        width: 60%;
+   }
+
+   .sneak{
+        width: 60%;
+   }
+
+   .clipboard h2{
+        font-size: 20px;
+   }
+
+   .clipboard p{
+        width: 70%;
+        margin: 0 auto;
+   }
+
+   .header h1{
+        width: 70%;
+        font-size: 23px;
+        margin: 0 auto;
+   }
+
+   .header p{
+        padding-top: 16px;
+        width: 60%;
+        margin: 0 auto;
+   }
+
+   .header-secundario h2{
+    padding-top: 20px;
+        width: 60%;
+        font-size: 20px;
+        margin: 0 auto;
+   }
+
+   .header-secundario p{
+        padding-top: 20px;
+        width: 50%;
+        margin: 0 auto;
+   }
+
+   .quick h2{
+        padding-top: 20px;
+        font-size: 20px;
+   }
+
+   .quick p{
+        width: 60%;
+        margin: 0 auto;
+   }
+
+   .icloud h2{
+        padding-top: 20px;
+        font-size: 20px;
+   }
+
+   .icloud p{
+        width: 70%;
+        margin: 0 auto;
+   }
+
+   .history h2{
+        padding-top: 20px;
+        font-size: 20px;
+   }
+
+   .history p{
+        width: 70%;
+        margin: 0 auto;
+   }
+
+   .secao-terciaria-header h2{
+        font-size: 20px;
+   }
+
+   .secao-terciaria-header{
+        padding-bottom: 50px;
    }
 }

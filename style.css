@@ -361,8 +361,12 @@ footer{
 
     .secao-carrossel{
         flex-direction: column;
-        margin-top: 15%;
+        margin-top: 10%;
         margin-bottom: 15%;
+    }
+
+    .secao-carrossel img{
+        width: 20%;
     }
 
     .clipboard-botoes{
@@ -408,7 +412,7 @@ footer{
    }
 
    .header-secundario p{
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
    }
 
@@ -418,11 +422,11 @@ footer{
    }
 
    .secao-secundaria-header h2{
-        font-size: 20px;
+        font-size: 23px;
    }
 
    .secao-secundaria-header p{
-        width: 75%;
+        width: 85%;
         margin: 0 auto;
    }
 
@@ -431,83 +435,83 @@ footer{
    }
 
    .create{
-        width: 60%;
+        width: 70%;
    }
 
    .plain{
-        width: 60%;
+        width: 70%;
    }
 
    .sneak{
-        width: 60%;
+        width: 70%;
    }
 
    .clipboard h2{
-        font-size: 20px;
+        font-size: 23px;
    }
 
    .clipboard p{
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
    }
 
    .header h1{
-        width: 70%;
-        font-size: 23px;
+        width: 80%;
+        font-size: 30px;
         margin: 0 auto;
    }
 
    .header p{
         padding-top: 16px;
-        width: 60%;
+        width: 70%;
         margin: 0 auto;
    }
 
    .header-secundario h2{
     padding-top: 20px;
-        width: 60%;
-        font-size: 20px;
+        width: 70%;
+        font-size: 22px;
         margin: 0 auto;
    }
 
    .header-secundario p{
         padding-top: 20px;
-        width: 50%;
+        width: 60%;
         margin: 0 auto;
    }
 
    .quick h2{
         padding-top: 20px;
-        font-size: 20px;
+        font-size: 22px;
    }
 
    .quick p{
-        width: 60%;
+        width: 70%;
         margin: 0 auto;
    }
 
    .icloud h2{
         padding-top: 20px;
-        font-size: 20px;
+        font-size: 22px;
    }
 
    .icloud p{
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
    }
 
    .history h2{
         padding-top: 20px;
-        font-size: 20px;
+        font-size: 22px;
    }
 
    .history p{
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
    }
 
    .secao-terciaria-header h2{
-        font-size: 20px;
+        font-size: 22px;
    }
 
    .secao-terciaria-header{
